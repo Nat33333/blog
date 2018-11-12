@@ -1,0 +1,16 @@
+I"b(function() {
+  jQuery(function() {
+    return $('#players').dataTable({
+      bJQueryUI: true,
+      iDisplayLength: 5,
+      bLengthChange: true,
+      bPaginate: true,
+      aLengthMenu: [[5, 10, 50, -1], [5, 10, 50, "All"]],
+      bStateSave: true,
+      sDom: 'p<"H"lfr>t<"F"ip>',
+      sPaginationType: "full_numbers"
+    });
+  });
+
+}).call(this);
+:ET

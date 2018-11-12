@@ -1,0 +1,13 @@
+.players {
+  text-align: center;
+  border: 1px solid blue;
+  tr {
+    @include linear-gradient(to top, steelblue,white);
+  }
+}
+
+table, tr, td {
+  border-collapse:collapse;
+  border: 2px solid blue;
+  padding: 5px;
+}
